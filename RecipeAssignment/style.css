@@ -1,0 +1,55 @@
+
+body {
+  background-color: #F6D2CA;
+  line-height: 2em;
+  width:max-width;
+  font-family:"Big Caslon";
+  border: 90px solid #D34322;
+  padding: 100px;
+
+
+}
+h1{
+  font-family:"Abril Fatface";
+  text-align: left;
+  letter-spacing: 2px;
+  font-size: 2.4em;
+  color: #3B1A13;
+}
+
+h3{
+  font-family: "Abril Fatface";
+  float:inherit;
+    letter-spacing: 1px;
+}
+
+p{
+  float:left;
+  font-family:"Big Caslon";
+  font-size: .9em;
+}
+li{
+  font-family:"Big Caslon";
+  font-size: 1em;
+}
+
+ul,ol{
+  margin-bottom: 5px:
+}
+
+.mainfood{
+  height:30%;
+  width:30%;
+  border: 6px solid #E88872;
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.wrapped{
+  align-content: space-between;
+}
+
+#text{
+  font-size: 1.3em;
+}
