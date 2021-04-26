@@ -1,0 +1,142 @@
+/* Basic Layout */
+
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 1.2em;
+}
+
+#wrapper{
+  max-width:1200px;
+  margin:0 auto; /* first value is for top/bottom,, second value for left/right*/
+}
+
+header{
+  background:
+  linear-gradient(90deg, rgba(0,0,0,1) 0, rgba(0,0,0,1) 300px, rgba(255,255,255,0) 600px),
+  url(header.jpeg) right top no-repeat,
+  black;
+  padding:2em;
+  font-weight: lighter;
+}
+
+p{
+  margin-bottom: 1em;
+
+}
+
+.lead{
+  color:#fff;
+  width:300px;
+}
+
+h1 img{
+  max-width: 100%;
+}
+
+header button{
+  background-color: #C81519;
+  background-image: url(play.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  color:#fff;
+  border:none;
+  padding:8px;
+  padding-top: 10px;
+  padding-left: 25px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+nav{
+  background-color: #4d4d4d;
+  padding:10px;
+  margin-bottom: 2em;
+
+}
+nav li {
+  display: inline;
+   border-right: solid 1px #fff;
+   padding-left: 1em;
+   padding-right: 1em;
+}
+
+nav li:last-child{
+  border:none;
+}
+
+
+nav a{
+    color:white;
+    text-decoration: none;
+}
+
+nav a:hover{
+  color:#a1a1a1;
+  text-decoration: underline;
+
+}
+
+.col{
+  width:48%;
+
+}
+
+.col-left{
+  float:left;
+}
+
+.col-right{
+  float: right;
+}
+
+footer{
+  clear:both;
+}
+
+
+h2{
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  margin-bottom: 0.5em;
+}
+
+h3{
+  font-weight: bold;
+}
+
+.tv-14{
+  border:solid 1px #000;
+  padding:0 3px;
+  font-size: smaller;
+
+}
+
+main{
+  margin-bottom: 3em;
+  overflow:auto;
+}
+
+/* Episode Page*/
+
+.episode-card{
+  width:24%;
+  margin-right:1%;
+}
+
+.episodes{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.responsive-img{
+  width:100%;
+
+}
+
+/*Text Styling */
+
+h4{
+  font-weight: bold;
+  margin-bottom: 1%;
+}
